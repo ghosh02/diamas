@@ -1,0 +1,123 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: #090d29;
+  min-height: 100vh;
+  font-family: "Inria Sans", sans-serif;
+}
+
+
+.font-butler {
+  font-family: "Butler", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: medium;
+  /* font-family: "Dancing Script", cursive; */
+}
+
+.bacalisties {
+  font-family: "Bacalisties", sans-serif;
+}
+
+.video-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
+
+@media (min-width: 1024px) { /* lg screen */
+  .flex-row-lg {
+    flex-direction: row;
+  }
+
+  .flex-row-reverse-lg {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 1023px) { /* small screen */
+  .flex-col-sm {
+    flex-direction: column;
+  }
+}
+
+
+/* swiper styles */
+
+/* .swiper {
+  width: 600px !important;
+  height: 500px !important;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-button-prev{
+  left: -400px !important;
+}
+.swiper-button-next{
+  right: -400px !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+@media(max-width : 640px){
+  .swiper {
+    width: 250px !important;
+    height: 300px !important;
+}
+
+.swiper-button-prev{
+  left: -40px !important;
+}
+.swiper-button-next{
+  right: -40px !important;
+}
+
+.mapdiv{
+  --tw-translate-x: 0% !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+
+
+
+}
+} */
+
+
